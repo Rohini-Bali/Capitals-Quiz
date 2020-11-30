@@ -26,3 +26,9 @@ var capitals=[{question:"What is the capital of India?\nNew Delhi or Mumbai\n",a
 {question:"What is the capital of Bangladesh?\nSylhet or Dhaka\n",answer:"Dhaka"},
 {question:"What is the capital of Austria?\nWestros or Vienna\n",answer:"Vienna"},
 {question:"What is the capital of USA?\nNew-york or Washington DC\n",answer:"Washington DC"}];
+for(i=0;i<capitals.length;i++)
+{
+  var currentQ=capitals[i];
+  play(currentQ.question,currentQ.answer);
+}
+console.log(chalk.yellow("Your score is ")+ chalk.blue(score));
