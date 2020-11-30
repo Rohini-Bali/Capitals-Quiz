@@ -19,3 +19,10 @@ function play(question,answer)
    score=--score;
  }
 }
+var capitals=[{question:"What is the capital of India?\nNew Delhi or Mumbai\n",answer:"New Delhi"},
+{question:"What is the capital of Australia?\nSydney or Canberra\n",answer:"Canberra"},
+{question:"What is the capital of Egypt?\nCairo or Luxor\n",answer:"Cairo"},
+{question:"What is the capital of New-zealand?\nAuckland or Wellington\n",answer:"Wellington"},
+{question:"What is the capital of Bangladesh?\nSylhet or Dhaka\n",answer:"Dhaka"},
+{question:"What is the capital of Austria?\nWestros or Vienna\n",answer:"Vienna"},
+{question:"What is the capital of USA?\nNew-york or Washington DC\n",answer:"Washington DC"}];
